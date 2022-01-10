@@ -1,3 +1,4 @@
+
 import requests
 from selenium import webdriver
 import logging as logger
@@ -33,7 +34,7 @@ def main():
             logger.info(f"{href_link} is working")
             visited_links[href_link] = "PASS"
           print(f"{href_link}:{visited_links[href_link]}")
-          print("=========================================")
+          print("==============================================================================")
           new_link_found = True
     if not new_link_found:
       break
@@ -47,6 +48,9 @@ def main():
 
 if __name__ == '__main__':
   main()
-        
+
+
+
+
       
 
